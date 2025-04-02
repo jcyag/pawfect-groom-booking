@@ -22,10 +22,11 @@ const ServiceCard = ({ title, description, price, image, icon }: ServiceCardProp
     <div className="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 group">
       <div className="relative h-48 overflow-hidden">
         {imageError ? (
-          <div className="w-full h-full flex flex-col items-center justify-center bg-pawfect-gray">
-            <ImageOff className="h-12 w-12 text-pawfect-dark mb-2" />
-            <span className="text-pawfect-dark">Image unavailable</span>
-          </div>
+          <img 
+            src="https://images.unsplash.com/photo-1582562124811-c09040d0a901" 
+            alt={title} 
+            className="w-full h-full object-cover"
+          />
         ) : (
           <img 
             src={image} 
