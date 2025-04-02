@@ -1,7 +1,7 @@
 
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowRight } from 'lucide-react';
+import { ArrowRight, ImageOff } from 'lucide-react';
 
 type ServiceCardProps = {
   title: string;
@@ -12,14 +12,28 @@ type ServiceCardProps = {
 };
 
 const ServiceCard = ({ title, description, price, image, icon }: ServiceCardProps) => {
+  const [imageError, setImageError] = useState(false);
+  
+  const handleImageError = () => {
+    setImageError(true);
+  };
+
   return (
     <div className="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 group">
       <div className="relative h-48 overflow-hidden">
-        <img 
-          src={image} 
-          alt={title} 
-          className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
-        />
+        {imageError ? (
+          <div className="w-full h-full flex flex-col items-center justify-center bg-pawfect-gray">
+            <ImageOff className="h-12 w-12 text-pawfect-dark mb-2" />
+            <span className="text-pawfect-dark">Image unavailable</span>
+          </div>
+        ) : (
+          <img 
+            src={image} 
+            alt={title} 
+            className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+            onError={handleImageError}
+          />
+        )}
       </div>
       <div className="p-6">
         <div className="flex justify-between items-center mb-3">
