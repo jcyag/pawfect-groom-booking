@@ -22,8 +22,8 @@ const ServiceCard = ({ title, description, price, image, icon }: ServiceCardProp
         />
       </div>
       <div className="p-6">
-        <div className="flex justify-between items-start mb-3">
-          <div className="bg-pawfect-pink p-3 rounded-full -mt-12 border-4 border-white shadow-md">
+        <div className="flex justify-between items-center mb-3">
+          <div className="bg-pawfect-pink p-3 rounded-full border-4 border-white shadow-md">
             {icon}
           </div>
           <div className="bg-pawfect-blue px-4 py-1 rounded-full text-pawfect-dark font-semibold">
