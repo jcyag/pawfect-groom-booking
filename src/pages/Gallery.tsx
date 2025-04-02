@@ -17,30 +17,30 @@ const Gallery = () => {
     {
       id: 1,
       image: 'https://images.unsplash.com/photo-1516734212186-65266f46771f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-      title: 'Fluffy's Transformation',
+      title: "Fluffy's Transformation",
       category: 'before-after',
-      description: 'A complete makeover for Fluffy, from matted fur to a clean, stylish cut that's easier to maintain.'
+      description: "A complete makeover for Fluffy, from matted fur to a clean, stylish cut that's easier to maintain."
     },
     {
       id: 2,
       image: 'https://images.unsplash.com/photo-1535930891776-0c2dfb7fda1a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-      title: 'Max's Spa Day',
+      title: "Max's Spa Day",
       category: 'dogs',
       description: 'Max enjoying his regular grooming session with a fresh haircut and pawdicure.'
     },
     {
       id: 3,
       image: 'https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-      title: 'Bella's Bath Time',
+      title: "Bella's Bath Time",
       category: 'cats',
       description: 'Bella getting the full spa treatment with our special cat-friendly bathing techniques.'
     },
     {
       id: 4,
       image: 'https://images.unsplash.com/photo-1548199973-03cce0bbc87b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-      title: 'Charlie's New Look',
+      title: "Charlie's New Look",
       category: 'before-after',
-      description: 'Charlie's dramatic transformation from a shaggy coat to a sleek, stylish trim.'
+      description: "Charlie's dramatic transformation from a shaggy coat to a sleek, stylish trim."
     },
     {
       id: 5,
@@ -52,21 +52,21 @@ const Gallery = () => {
     {
       id: 6,
       image: 'https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-      title: 'Oliver's Lion Cut',
+      title: "Oliver's Lion Cut",
       category: 'cats',
       description: 'Oliver sporting a lion cut, which helps reduce shedding and matting while keeping him cool.'
     },
     {
       id: 7,
       image: 'https://images.unsplash.com/photo-1543466835-00a7907e9de1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-      title: 'Teddy's First Grooming',
+      title: "Teddy's First Grooming",
       category: 'dogs',
-      description: 'Teddy's first professional grooming experience, focusing on gentle introduction to the process.'
+      description: "Teddy's first professional grooming experience, focusing on gentle introduction to the process."
     },
     {
       id: 8,
       image: 'https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-      title: 'Ruby's Mohawk',
+      title: "Ruby's Mohawk",
       category: 'special-styles',
       description: 'Ruby rocking a fun mohawk style that showcases our creative grooming options.'
     },
@@ -80,21 +80,21 @@ const Gallery = () => {
     {
       id: 10,
       image: 'https://images.unsplash.com/photo-1533743983669-94fa5c4338ec?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-      title: 'Coco's Makeover',
+      title: "Coco's Makeover",
       category: 'before-after',
       description: 'Coco went from neglected coat to perfectly groomed in just one session.'
     },
     {
       id: 11,
       image: 'https://images.unsplash.com/photo-1592194996308-7b43878e84a6?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-      title: 'Whiskers' Bath Day',
+      title: "Whiskers' Bath Day",
       category: 'cats',
       description: 'Whiskers enjoying our special cat-friendly grooming services designed for maximum comfort.'
     },
     {
       id: 12,
       image: 'https://images.unsplash.com/photo-1583512603805-3cc6b41f3edb?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-      title: 'Rocky's Regular Cut',
+      title: "Rocky's Regular Cut",
       category: 'dogs',
       description: 'Rocky getting his monthly grooming with our signature style that his owners love.'
     }

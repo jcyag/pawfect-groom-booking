@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Phone, Mail, MapPin, Clock, Send, MessageSquare } from 'lucide-react';
 import { useToast } from '@/components/ui/use-toast';
@@ -98,7 +97,7 @@ const Contact = () => {
     },
     {
       question: 'Do you groom all breeds of dogs and cats?',
-      answer: 'Yes, our experienced groomers are trained to work with all breeds of dogs and cats, adapting our techniques to suit each pet's specific needs.'
+      answer: "Yes, our experienced groomers are trained to work with all breeds of dogs and cats, adapting our techniques to suit each pet's specific needs."
     }
   ];
 

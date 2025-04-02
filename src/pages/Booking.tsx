@@ -1,4 +1,3 @@
-
 import React from 'react';
 import BookingForm from '@/components/BookingForm';
 import { CalendarDays, Calendar, Clock, CheckCircle, AlertCircle } from 'lucide-react';
@@ -8,7 +7,7 @@ const Booking = () => {
     {
       icon: <CalendarDays className="h-10 w-10 text-pawfect-pink" />,
       title: 'Choose a Date',
-      description: 'Select a convenient date for your pet's grooming appointment.'
+      description: "Select a convenient date for your pet's grooming appointment."
     },
     {
       icon: <Clock className="h-10 w-10 text-pawfect-pink" />,
@@ -18,7 +17,7 @@ const Booking = () => {
     {
       icon: <CheckCircle className="h-10 w-10 text-pawfect-pink" />,
       title: 'Confirm Details',
-      description: 'Fill in your pet's details and any special instructions.'
+      description: "Fill in your pet's details and any special instructions."
     },
     {
       icon: <Calendar className="h-10 w-10 text-pawfect-pink" />,
@@ -34,11 +33,11 @@ const Booking = () => {
     },
     {
       question: 'Can I stay with my pet during grooming?',
-      answer: 'While we understand your concern, we generally don't recommend owners staying during the grooming process as it can make pets more anxious or distracted. However, we're happy to discuss special arrangements for pets with severe anxiety.'
+      answer: "While we understand your concern, we generally don't recommend owners staying during the grooming process as it can make pets more anxious or distracted. However, we're happy to discuss special arrangements for pets with severe anxiety."
     },
     {
       question: 'What if I need to cancel or reschedule?',
-      answer: 'We appreciate at least 24 hours' notice for cancellations or rescheduling. This allows us to offer the slot to another client. Repeated no-shows may incur a booking fee for future appointments.'
+      answer: "We appreciate at least 24 hours' notice for cancellations or rescheduling. This allows us to offer the slot to another client. Repeated no-shows may incur a booking fee for future appointments."
     }
   ];
 

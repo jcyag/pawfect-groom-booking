@@ -45,7 +45,7 @@ const About = () => {
     {
       icon: <Heart className="h-12 w-12 text-pawfect-pink" />,
       title: 'Compassionate Care',
-      description: 'We treat every pet with the same love and attention we give to our own. Your pets' comfort and happiness are our top priorities.'
+      description: "We treat every pet with the same love and attention we give to our own. Your pets' comfort and happiness are our top priorities."
     },
     {
       icon: <ShieldCheck className="h-12 w-12 text-pawfect-pink" />,

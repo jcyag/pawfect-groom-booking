@@ -48,7 +48,7 @@ const Index = () => {
     {
       name: 'Emily Davis',
       rating: 4,
-      comment: 'Professional service and they're so patient with my anxious poodle. Worth every penny!',
+      comment: "Professional service and they're so patient with my anxious poodle. Worth every penny!",
       image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=256&q=80',
       petType: 'Toy Poodle'
     }
